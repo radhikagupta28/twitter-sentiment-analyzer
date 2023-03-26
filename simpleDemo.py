@@ -105,3 +105,4 @@ testTweet = 'Congrats @ravikiranj, i heard you wrote a new tech post on sentimen
 processedTestTweet = processTweet(testTweet)
 sentiment = NBClassifier.classify(extract_features(getFeatureVector(processedTestTweet, stopWords)))
 print "testTweet = %s, sentiment = %s\n" % (testTweet, sentiment)
+heyyyy
